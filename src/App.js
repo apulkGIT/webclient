@@ -6,6 +6,7 @@ function App() {
     <div className="App">
 	<h1>Welcome to my react test page:</h1>
         <p>Blaa blaa...</p>
+        <p>You can't click me!</p>
     </div>
   );
 }
