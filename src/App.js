@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const [ msg, setMsgState ] = useState(""); 
   const apiKey = process.env.REACT_APP_API_KEY2;
-  const host = process.env.MY_HOST2;
+//  const host = process.env.MY_HOST2;
   useEffect(() => {
     fetch("http://87.92.70.31:9999/log",{
       method: "POST",
