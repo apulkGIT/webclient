@@ -6,7 +6,7 @@ function App() {
   const apiKey = process.env.REACT_APP_API_KEY2;
 //  const host = process.env.MY_HOST2;
   useEffect(() => {
-    fetch("http://87.92.70.31:9999/log",{
+    fetch("http://87.92.70.41:9999/log",{
       method: "POST",
       headers: new Headers({"Content-Type": "application/json"}),
       body: JSON.stringify({name:"Mina"})
