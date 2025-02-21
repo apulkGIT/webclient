@@ -2,7 +2,7 @@
   "name": "testapp",
   "version": "0.1.0",
   "private": true,
-  "proxy":"%MY_HOST2%,
+  "proxy":"%MY_HOST2%",
   "homepage": "https://apulkGIT.github.io/webclient/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
