@@ -5,7 +5,6 @@ function App() {
   const [ msg, setMsgState ] = useState(""); 
   const apiKey = process.env.REACT_APP_API_KEY2;
   const host = process.env.MY_HOST2;
-  let m = "1";
   useEffect(() => {
     fetch(host+"/log",{
       method: "POST",
