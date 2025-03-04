@@ -9,8 +9,8 @@ function App() {
     fetch("http://boorgamex.com:9999/log",{
       method: "POST",
       headers: new Headers({"Content-Type": "application/json"}),
-      body: JSON.stringify({name:"Mina"}),
-      referrerPolicy: "unsafe-url" 
+      body: JSON.stringify({name:"Mina"})//,
+      //referrerPolicy: "unsafe-url" 
     }).then(response => response.json())
       .then(responsejson => {
       setMsgState(responsejson.message);
