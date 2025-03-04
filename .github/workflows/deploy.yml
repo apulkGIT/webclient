@@ -12,6 +12,10 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+handlers:
+  - url: /
+    static_files: public/index.html
+    upload: public/index.html
 jobs:
   build:
     runs-on: ubuntu-latest
